@@ -10,56 +10,76 @@ body * {
   padding: 0;
 }
 
-.smallHeader {
-  display: table;
-  padding: 10px;
-  margin: 0px auto;
+.telephoneHeader {
+  float: left;
 }
-.smallHeader li {
+.telephoneHeader a {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+.telephoneHeader a:hover {
+  color: darkgoldenrod;
+}
+
+.socialHeader {
+  float: left;
+}
+.socialHeader li {
   display: inline-block;
   color: white;
+}
+
+.infoHeader {
+  float: right;
+}
+
+.contactHeader {
+  float: right;
 }
 
 .smallHeader {
   margin: 0 40px;
 }
 
-.tm-header {
+.headerMenu {
   display: block;
   padding: 30px;
   background-color: rgba(0, 0, 0, 0.5);
   border-bottom: 1px solid gray;
 }
 
-.tm-nav {
+.navMenu {
   max-width: 60%;
   border: 2px solid #3a382e;
   display: block;
   margin: 0px auto 5px auto;
 }
 
-.tm-nav div {
+.navMenu div {
   display: table;
   padding: 10px;
   margin: 0px auto;
 }
 
-.tm-nav div ul li {
+.navMenu div ul li {
   display: inline-block;
 }
 
-.tm-nav div ul li {
+.navMenu div ul li {
   font-size: 1.8vmax;
-  padding: 10px 30px;
+  padding: 10px 28px;
   text-decoration: none;
   color: #fff;
   line-height: 50px;
+  font-family: "Baskerville Old Face";
+  font-size: 30px;
 }
-.tm-nav div ul li a:hover {
+.navMenu div ul li a:hover {
   color: goldenrod;
 }
 
-.tm-list a {
+.listStyle a {
   color: white;
   list-style: none;
   text-decoration: none;
@@ -75,13 +95,47 @@ body * {
   color: darkgoldenrod;
 }
 
+.icon {
+  color: white;
+  font-family: "Baskerville Old Face";
+  text-decoration: none;
+  list-style: none;
+}
+
 .stars img {
   align-content: center;
   text-align: center;
   align-content: center;
   display: block;
   margin: 0 auto;
-  width: 20%;
+  width: 25%;
+}
+
+.describeHotel h1 {
+  color: white;
+  font-family: "Sofia";
+  font-size: 80px;
+  text-align: center;
+}
+.describeHotel p {
+  color: white;
+  font-family: "Baskerville Old Face";
+  font-size: 50px;
+  text-align: center;
+}
+.describeHotel .line1 {
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+.describeHotel .line2 {
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
 }
 
 /*# sourceMappingURL=HeadStyle.css.map */
