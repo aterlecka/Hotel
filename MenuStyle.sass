@@ -273,74 +273,191 @@ body
 
   visibility: hidden
 
-//  -webkit-transition: opacity .2 s ease-out, visibility 0 s linear .2 s
-//
-//  -o-transition: opacity .2 s ease-out, visibility 0 s linear .2 s
-//
-//  transition: opacity .2 s ease-out, visibility 0 s linear .2 s
-//  z-index: 1000
+////////////////rooms////////////////////////////////////
+
+//.insideRoomLeft, .insideRoomRight
+//  background-color: rgba(0, 0, 0, 0.8)
 //
 //
+//.insideRoomLeft::after
+//  content: " "
+//  display: block
+//  clear: both
 //
-//#loader.fullscreen {
-//  padding: 0;
-//  left: 0;
-//  top: 0;
-//  width: 100%;
-//  height: 100%;
 //
-//  -webkit-transform:none;
+//.insideRoomRight::after
+//  content: " "
+//  display: block
+//  clear: both
 //
-//  -ms-transform:none;
 //
-//  transform:none;
-//  background-color: #fff;
-//  border-radius: 0;
+//.insideRoomLeft p
 //
-//  -webkit-box-shadow:none;
+//  float: right
+//  padding-right: 15%
+//  padding-top: 7%
+//  max-width: 30%
+//  font-size: 3.5vw
+//  color: #fff
+//  font-family: "Baskerville Old Face"
 //
-//  box-shadow:none;
 //
-//}
+//.insideRoomRight p
 //
-//#loader.show {
+//  float: left
+//  padding-left: 5%
+//  padding-top: 15%
+//  max-width: 30%
+//  font-size: 3.5vw
+//  color: #fff
+//  font-family: "Baskerville Old Face"
 //
-//  -webkit-transition:opacity .4 s ease-out, visibility 0 s linear 0 s;
 //
-//  -o-transition:opacity .4 s ease-out, visibility 0 s linear 0 s;
+//.insideRoomLeft img
+//  display: block
+//  float: left
+//  max-width: 45%
+//  width: 50%
+//  height: auto
 //
-//  transition:opacity .4 s ease-out, visibility 0 s linear 0 s;
 //
-//  visibility:visible;
-//  opacity: 1;
+//.insideRoomRight img
+//  display: block
+//  float: right
+//  max-width: 60%
+//  width: 60%
+//  height: auto
 //
-//}
 //
-//#loader .circular {
-//
-//  -webkit-animation:loader-rotate 2 s linear infinite;
-//
-//  animation:loader-rotate 2 s linear infinite;
-//
-//  position:absolute;
-//  left: calc(50% - 24px);
-//  top: calc(50% - 24px);
-//
-//  display:block;
-//  -webkit-transform: rotate(0deg);
-//  -ms-transform: rotate(0deg);
-//  transform: rotate(0deg);
-//
-//}
-//
-//#loader .path {
-//  stroke-dasharray: 1, 200;
-//  stroke-dashoffset: 0;
-//
-//  -webkit-animation:loader-dash 1.5 s ease-in-out infinite;
-//
-//  animation:loader-dash 1.5 s ease-in-out infinite;
-//
-//  stroke-linecap:round;
-//
-//}
+//.exploreSection::after
+//  content: "."
+//  font-size: xx-small
+//  visibility: hidden
+
+
+
+
+
+.tm-exp1, .tm-exp2
+  background-color: rgba(0, 0, 0, 0.8)
+
+.tm-exp1::after
+  content: " "
+  display: block
+  clear: both
+
+
+.tm-exp2::after
+  content: " "
+  display: block
+  clear: both
+
+
+.tm-exp1 p
+  float: right
+  padding-right: 5%
+  padding-top: 15%
+  max-width: 30%
+  font-size: 3.5vw
+  color: #fff
+
+
+.tm-exp2 p
+  float: left
+  padding-left: 5%
+  padding-top: 15%
+  max-width: 30%
+  font-size: 3.5vw
+  color: #fff
+
+
+.tm-exp1 img
+
+  display: block
+
+  float: left
+  max-width: 60%
+  width: 60%
+  height: auto
+
+
+.tm-exp2 img
+  display: block
+  float: right
+  max-width: 60%
+  width: 60%
+  height: auto
+
+.tm-expsection::after
+  content: "."
+  font-size: xx-small
+  visibility: hidden
+
+///////////rms2
+.insideRoomSection
+  display: flex
+
+
+.roomClassMain
+  max-width: 33.33333%
+  width: 33.333333%
+  background-color: rgba(0, 0, 0, 0.8)
+  display: inline-block
+  margin: 0px
+  position: relative
+
+
+.roomClassMain p
+  font-size: 2.5vw
+  color: #fff
+
+  text-align: center
+  padding: 5%
+  z-index: 2
+  position: relative
+
+
+.roomImg
+  max-width: 100%
+  width: 100%
+
+
+.describeRoom
+  display: inline-block
+  position: absolute
+  top: 78%
+  /*78*/
+  color: #fff
+  max-width: 100%
+  width: 100%
+  height: 0%
+  background-color: rgba(0, 0, 0, 0.6)
+  opacity: 0
+
+
+.describeRoom p
+  font-size: 1.8vw
+
+
+.describeRoom div
+  display: inline-table
+  width: 40%
+  max-width: 40%
+  margin: 2%
+
+
+.describeRoom div .bold
+  color: goldenrod
+
+.roomClassMain:hover .describeRoom
+  top: 30%
+  transition: top 1s, opacity 1s, height 1s
+  opacity: 1
+  height: 50%
+  z-index: 1
+
+
+
+
+
+
