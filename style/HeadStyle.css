@@ -1,0 +1,523 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+html {
+  overflow-x: hidden;
+}
+@media (max-width: 980px) {
+  html {
+    overflow-x: hidden;
+  }
+}
+
+body {
+  background-image: url("https://codex-themes.com/thegem/sites/resort-hotel/wp-content/uploads/2019/02/1-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  height: 100%;
+}
+
+.telephoneHeader {
+  float: left;
+}
+.telephoneHeader a {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+.telephoneHeader a:hover {
+  color: darkgoldenrod;
+}
+
+.socialHeader {
+  display: flex;
+}
+.socialHeader ul {
+  margin-left: 17%;
+  display: flex;
+  flex: 0 0 20%;
+}
+.socialHeader li {
+  display: inline-block;
+  color: white;
+  font-size: 33px;
+  flex: 0 0 63%;
+  margin-top: 29%;
+}
+
+@media (max-width: 700px) {
+  .socialHeader {
+    display: flex;
+  }
+  .socialHeader ul {
+    margin-left: 17%;
+    display: flex;
+    flex: 0 0 20%;
+  }
+  .socialHeader li {
+    display: inline-block;
+    color: white;
+    font-size: 33px;
+    flex: 0 0 30%;
+    margin-top: 29%;
+  }
+}
+.headerMenu {
+  display: block;
+  padding: 2%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid gray;
+}
+
+.navMenu {
+  max-width: 60%;
+  border: 2px solid #3a382e;
+  display: block;
+  margin: 0px auto 5px auto;
+}
+
+.navMenu div {
+  display: table;
+  padding: 10px;
+  margin: 0px auto;
+}
+
+.navMenu div ul li {
+  display: inline-block;
+}
+
+.navMenu div ul li {
+  font-size: 1.8vmax;
+  padding: 10px 28px;
+  text-decoration: none;
+  color: #fff;
+  line-height: 50px;
+  font-family: "Baskerville Old Face";
+  font-size: 30px;
+}
+.navMenu div ul li a:hover {
+  color: goldenrod;
+}
+
+.listStyle a {
+  color: white;
+  list-style: none;
+  text-decoration: none;
+}
+
+.fa {
+  color: white;
+  list-style: none;
+  text-decoration: none;
+}
+
+.fa:hover {
+  color: darkgoldenrod;
+}
+
+.icon {
+  color: white;
+  font-family: "Baskerville Old Face";
+  text-decoration: none;
+  list-style: none;
+}
+
+.stars img {
+  align-content: center;
+  text-align: center;
+  align-content: center;
+  display: block;
+  margin: 0 auto;
+  width: 17%;
+  margin-top: 2rem;
+}
+
+.describeHotel h1 {
+  color: white;
+  font-family: "Sofia";
+  font-size: 80px;
+  text-align: center;
+}
+.describeHotel p {
+  color: white;
+  font-family: "Baskerville Old Face";
+  font-size: 50px;
+  text-align: center;
+}
+.describeHotel .line1 {
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+.describeHotel .line2 {
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
+/* Explore page */
+.tm-main p {
+  display: table;
+  max-width: 25%;
+  margin: 0 auto;
+  font-size: 4vw;
+  padding: 2%;
+  color: #fff;
+  font-weight: 700;
+  font-family: "Baskerville Old Face";
+}
+
+/* Explore sections */
+.insideExploreLeft, .insideExploreRight {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.insideExploreLeft::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.insideExploreRight::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.insideExploreLeft p {
+  float: right;
+  padding-right: 11%;
+  padding-top: 15%;
+  max-width: 30%;
+  font-size: 3.5vw;
+  color: #fff;
+  font-family: "Baskerville Old Face";
+}
+
+.insideExploreRight p {
+  float: left;
+  padding-left: 5%;
+  padding-top: 15%;
+  max-width: 30%;
+  font-size: 3.5vw;
+  color: #fff;
+  font-family: "Baskerville Old Face";
+}
+
+.insideExploreLeft img {
+  display: block;
+  float: left;
+  max-width: 45%;
+  width: 50%;
+  height: auto;
+}
+
+.insideExploreRight img {
+  display: block;
+  float: right;
+  max-width: 60%;
+  width: 60%;
+  height: auto;
+}
+
+.exploreSection::after {
+  content: ".";
+  font-size: xx-small;
+  visibility: hidden;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  display: block;
+  padding: 20px;
+  position: relative;
+}
+
+.firstColumn {
+  display: inline-table;
+  max-width: 30%;
+  width: 30%;
+  margin: 2% 0 2% 4%;
+}
+
+.secondColumn {
+  display: inline-table;
+  max-width: 30%;
+  width: 30%;
+  margin: 2% 0 2% 25%;
+}
+
+.firstColumn .bold, .secondColumn .bold {
+  color: #fff;
+  font-size: 1.5vw;
+  font-weight: 700;
+  padding-bottom: 4%;
+}
+
+.firstColumn p, .secondColumn p {
+  color: #fff;
+  font-size: 1.2vw;
+}
+
+.tm-media {
+  display: inline;
+  margin: 0 0 0 59%;
+}
+
+.tm-media img {
+  margin: 0.5%;
+  width: 3%;
+  height: auto;
+}
+
+.tm-up {
+  position: absolute;
+  top: 20%;
+  right: 3%;
+  width: 3%;
+  height: auto;
+}
+
+.tm-review:focus {
+  outline: none;
+}
+
+.tm-revcon:focus {
+  outline: none;
+}
+
+div,
+input,
+select,
+textarea {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lucida Grande", Arial, Verdana, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+form .booking {
+  max-width: 445px;
+  box-sizing: border-box;
+  margin-left: 30%;
+  margin-right: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+}
+
+.mr3 {
+  margin-right: 15px;
+}
+
+.info-text {
+  text-align: left;
+  width: 100%;
+}
+
+.formGroup {
+  margin-bottom: 15px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  border-radius: 2px;
+}
+
+.controls:not(.nested):last-child :last-of-type {
+  margin-bottom: 0;
+}
+
+.form-group-buttons {
+  padding: 0 10px;
+  text-align: center;
+}
+.form-group-buttons button {
+  text-align: center;
+  display: inline-block;
+  padding: 14px;
+  border-radius: 3px;
+  width: 120px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.form-group-buttons button:hover {
+  box-shadow: inset 0 0 0 100vw rgba(0, 0, 0, 0.05);
+}
+
+.g-recaptcha {
+  margin: auto;
+}
+.g-recaptcha div {
+  margin: auto;
+}
+
+.heading {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+  color: #a26d45;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+  padding: 16px 14px;
+  margin-bottom: 20px;
+}
+
+.controls {
+  position: relative;
+}
+.controls input[type=text],
+.controls input[type=email],
+.controls input[type=number],
+.controls input[type=tel],
+.controls textarea,
+.controls button,
+.controls select {
+  padding: 12px;
+  font-size: 14px;
+  border: 1px solid black;
+  width: 100%;
+  margin-bottom: 20px;
+  color: black;
+  font-family: "Lato", "sans-serif";
+  font-weight: 300;
+}
+.controls input[type=text]:focus, .controls input[type=text]:hover,
+.controls input[type=email]:focus,
+.controls input[type=email]:hover,
+.controls input[type=number]:focus,
+.controls input[type=number]:hover,
+.controls input[type=tel]:focus,
+.controls input[type=tel]:hover,
+.controls textarea:focus,
+.controls textarea:hover,
+.controls button:focus,
+.controls button:hover,
+.controls select:focus,
+.controls select:hover {
+  outline: none;
+  border-color: #c1ac7e;
+}
+.controls input[type=text]:focus + label, .controls input[type=text]:hover + label,
+.controls input[type=email]:focus + label,
+.controls input[type=email]:hover + label,
+.controls input[type=number]:focus + label,
+.controls input[type=number]:hover + label,
+.controls input[type=tel]:focus + label,
+.controls input[type=tel]:hover + label,
+.controls textarea:focus + label,
+.controls textarea:hover + label,
+.controls button:focus + label,
+.controls button:hover + label,
+.controls select:focus + label,
+.controls select:hover + label {
+  color: #a26d45;
+  cursor: text;
+}
+.controls input[type=text]:focus + label.active, .controls input[type=text]:hover + label.active,
+.controls input[type=email]:focus + label.active,
+.controls input[type=email]:hover + label.active,
+.controls input[type=number]:focus + label.active,
+.controls input[type=number]:hover + label.active,
+.controls input[type=tel]:focus + label.active,
+.controls input[type=tel]:hover + label.active,
+.controls textarea:focus + label.active,
+.controls textarea:hover + label.active,
+.controls button:focus + label.active,
+.controls button:hover + label.active,
+.controls select:focus + label.active,
+.controls select:hover + label.active {
+  color: black;
+}
+.controls .fa-sort {
+  position: absolute;
+  box-sizing: border-box;
+  width: 42px;
+  height: 39px;
+  padding: 15px 20px;
+  pointer-events: none !important;
+  top: 2px;
+  right: 2px;
+  color: #999;
+  background-color: #fff;
+}
+.controls select {
+  cursor: pointer;
+  background-color: #fff;
+}
+.controls label {
+  pointer-events: none !important;
+  position: absolute;
+  left: 8px;
+  top: 0;
+  transform: translateY(12px);
+  width: auto;
+  color: #999;
+  font-size: 16px;
+  display: inline-block;
+  padding: 4px 10px;
+  font-weight: 400;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0);
+}
+.controls label.active {
+  transform: translateY(-12px);
+  color: #fff;
+  background-color: #999999;
+  width: auto;
+}
+.controls textarea {
+  resize: none;
+  height: 200px;
+}
+
+button {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.7);
+  border: none;
+  color: #fff;
+}
+button:hover {
+  background-color: #b3794d;
+}
+
+.clear:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col-2-3 {
+  width: 66.66%;
+}
+
+.col-1-3 {
+  width: 33.33%;
+}
+
+.columns1and2 {
+  width: 50%;
+}
+
+.columns1-4 {
+  width: 25%;
+}
+
+.col-1-8 {
+  width: 12.5%;
+}
+
+/*# sourceMappingURL=HeadStyle.css.map */

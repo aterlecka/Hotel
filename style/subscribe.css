@@ -1,0 +1,262 @@
+p{
+    margin: 0 0 15px 0;
+    padding: 0;
+    color: #555;
+    font-style: italic;
+    font-size: 14px;
+}
+.newsleter {
+    max-width: 445px;
+    box-sizing: border-box;
+    margin-left: 30%;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px;
+}
+
+
+.booking {
+    max-width: 445px;
+    box-sizing: border-box;
+    margin-left: 38%;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px;
+}
+
+input {
+    font-family: 'PT Sans Narrow';
+    font-size: 20px;
+}
+
+.info{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.info input {
+    display: block;
+    width: 300px;
+    height: 20px;
+    border: 0;
+    border-radius: 3px;
+    margin: 0 0 10px 0;
+    padding: 12px 10px;
+    background: #fff;
+}
+.submit{
+    text-align: center;
+}
+@media(max-width: 980px){
+    form{
+        max-width: 70%;
+        box-sizing: border-box;
+        margin-left: 10%;
+        margin-right: auto;
+        background-color: rgba(0, 0, 0, 0.4);
+        padding: 10px;
+    }
+
+    input {
+        font-family: 'PT Sans Narrow';
+        font-size: 20px;
+    }
+
+    .info{
+        display: inline-block;
+        margin-right: 5px;
+    }
+
+    .info input {
+        display: block;
+        width: 300px;
+        height: 20px;
+        border: 0;
+        border-radius: 3px;
+        margin: 0 0 10px 0;
+        padding: 12px 10px;
+        background: #fff;
+    }
+    .submit{
+        text-align: center;
+    }
+}
+
+
+/**/
+.tm-service{
+    max-width: 30%;
+    width: 30%;
+    margin: 1.5% 12% 1.5% 10%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.tm-servicesection{
+    display: flex;
+}
+
+.tm-serimage{
+    display: inline-block;
+    max-width: 20%;
+    width: 10%;
+    height: auto;
+    padding-bottom: 10%;
+
+
+}
+
+.tm-service div{
+    display: inline-block;
+
+    max-width: 75%;
+    padding: 5%;
+}
+
+.tm-service p{
+    font-size: 1.5vmax;
+    color: goldenrod;
+
+}
+.tm-service .b{
+    padding-bottom: 2%;
+    font-weight: 700;
+}
+
+/*reviision*/
+
+
+
+.tm-review{
+    background: #353535;
+    padding-bottom: 5%;
+
+}
+
+.tm-review::after{
+    content:" ";
+    display: block;
+    clear: both;
+}
+
+.tm-revcon{
+    float: left;
+    padding-left: 5%;
+    max-width: 65%;
+}
+
+.tm-revcon .b{
+    padding: 3% 0 3% 5%;
+    font-size: 2vw;
+    font-weight: 700;
+}
+
+.tm-revcon p{
+    font-size: 1.5vw;
+    color: #fff;
+}
+
+.tm-rev{
+    padding: 3% 0 0% 5%;
+    max-width: 70%;
+
+}
+
+
+
+
+.tm-stars{
+    display: block;
+    padding-left: 5%;
+}
+.tm-stars img{
+    width: 4%;
+    height: auto;
+}
+
+
+
+
+.testimonial{
+    margin: 0 20px 40px;
+}
+.testimonial .testimonial-content{
+    padding: 35px 25px 35px 50px;
+    margin-bottom: 35px;
+    background: #fff;
+    position: relative;
+}
+.testimonial .testimonial-content:before{
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    border-top: 15px solid #718076;
+    border-left: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+}
+.testimonial .testimonial-content:after{
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    right: 0;
+    border-top: 15px solid #718076;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+}
+.testimonial-content .testimonial-icon{
+    width: 50px;
+    height: 45px;
+    background: goldenrod;
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    line-height: 42px;
+    position: absolute;
+    top: 37px;
+    left: -19px;
+}
+.testimonial-content .testimonial-icon:before{
+    content: "";
+    border-bottom: 16px solid goldenrod;
+    border-left: 18px solid transparent;
+    position: absolute;
+    top: -16px;
+    left: 1px;
+}
+.testimonial .description{
+    font-size: 15px;
+    font-style: italic;
+    color: #8a8a8a;
+    line-height: 23px;
+    margin: 0;
+}
+.testimonial .title{
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin: 0 0 5px 0;
+}
+.testimonial .post{
+    display: block;
+    font-size: 14px;
+    color: goldenrod;
+}
+.owl-theme .owl-controls{
+    margin-top: 20px;
+}
+.owl-theme .owl-controls .owl-page span{
+    background: #ccc;
+    opacity: 1;
+    transition: all 0.4s ease 0s;
+    display: flex;
+}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+    background: goldenrod;
+}
+.owl-wrapper{
+    display: flex;
+}
